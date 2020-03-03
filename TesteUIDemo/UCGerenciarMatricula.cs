@@ -182,7 +182,7 @@ namespace TesteUiDemo
         }
         private void txtPesquisar_TextChanged(object sender, EventArgs e)
         {
-            string constring = @"Data Source=PE03Z28Z\SQLEXPRESS;Initial Catalog=bdSistemaEscolar;Integrated Security=True";
+            string constring = @"Data Source=localhost\SQLEXPRESS;Initial Catalog=bdSistemaEscolar;Integrated Security=True";
             SqlConnection connection = new SqlConnection(constring);
 
             connection.Open();

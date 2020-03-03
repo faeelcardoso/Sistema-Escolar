@@ -33,11 +33,11 @@ namespace TesteUiDemo
         {
 
    
-            String source = @"Data Source=PE03Z28Z\SQLEXPRESS;Initial Catalog=bdSistemaEscolar;Integrated Security=True";
+            String source = @"Data Source=localhost\SQLEXPRESS;Initial Catalog=bdSistemaEscolar;Integrated Security=True";
             SqlConnection con = new SqlConnection(source);
             con.Open();
 
-            String sqlSelectQuery = "SELECT tb_curso.nomeC, tb_aluno.nome FROM tb_curso INNER JOIN tb_aluno ON tb_curso.idCurso = FK_idCurso WHERE idAluno =  " + int.Parse(txt1.Text);
+            String sqlSelectQuery = "SELECT tb_curso.nome, tb_aluno.nome FROM tb_curso INNER JOIN tb_aluno ON tb_curso.idCurso = FK_idCurso WHERE idAluno =  " + int.Parse(txt1.Text);
 
             SqlCommand cmd = new SqlCommand(sqlSelectQuery, con);
             SqlDataReader dr = cmd.ExecuteReader();
@@ -45,7 +45,7 @@ namespace TesteUiDemo
             if (dr.Read())
             {
                 txt2.Text = "Nome: " + (dr["nome"].ToString());
-                txt3.Text = "Curso: " +(dr["nomeC"].ToString());
+                txt3.Text = "Curso: " +(dr["nome"].ToString());
             }
 
             QRCodeGenerator qr = new QRCodeGenerator();

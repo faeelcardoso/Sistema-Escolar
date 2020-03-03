@@ -133,7 +133,7 @@ namespace TesteUiDemo
             cbCurso.DropDownStyle = ComboBoxStyle.DropDownList;
             cbCurso.SelectedText = "";
 
-            string constring = @"Data Source=PE03Z28Z\SQLEXPRESS;Initial Catalog=bdSistemaEscolar;Integrated Security=True";
+            string constring = @"Data Source=localhost\SQLEXPRESS;Initial Catalog=bdSistemaEscolar;Integrated Security=True";
             SqlConnection con = new SqlConnection(constring);
             con.Open();
 
@@ -146,12 +146,12 @@ namespace TesteUiDemo
             DataTable dt = new DataTable();
 
             dt.Columns.Add("idCurso", typeof(int));
-            dt.Columns.Add("nomeC", typeof(string));
+            dt.Columns.Add("nome", typeof(string));
 
             dt.Load(reader);
 
             cbCurso.ValueMember = "idCurso";
-            cbCurso.DisplayMember = "nomeC";
+            cbCurso.DisplayMember = "nomec";
             cbCurso.DataSource = dt;
 
             con.Close();

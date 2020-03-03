@@ -12,7 +12,7 @@ namespace Model.Conexao
         SqlConnection con = new SqlConnection();
         public Conexao()
         {
-            con.ConnectionString = "Data Source=PE03Z28Z\\SQLEXPRESS;Initial Catalog=bdSistemaEscolar;Integrated Security=True";
+            con.ConnectionString = "Data Source=localhost\\SQLEXPRESS;Initial Catalog=bdSistemaEscolar;Integrated Security=True";
         }
         public SqlConnection Conectar()
         {

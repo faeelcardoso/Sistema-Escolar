@@ -19,7 +19,7 @@ CREATE TABLE tb_professor
 CREATE TABLE tb_curso
 (
 	idCurso			INT			NOT NULL PRIMARY KEY IDENTITY (1,1),
-	nome			VARCHAR(50) NOT NULL,
+	nomec			VARCHAR(50) NOT NULL,
 	custo			INT			NOT NULL,
 	FK_idProfessor	INT			FOREIGN KEY REFERENCES tb_professor(idProfessor)
 );
@@ -56,11 +56,11 @@ SELECT * FROM tb_curso;
 SELECT * FROM tb_aluno; 
 SELECT * FROM tb_usuarios;
 
-SELECT tb_professor.nome, tb_curso.nomeC FROM tb_professor 
+SELECT tb_professor.nome, tb_curso.nome FROM tb_professor 
 INNER JOIN tb_curso ON tb_professor.idProfessor	= tb_curso.FK_idProfessor WHERE idProfessor = 1;
 
 SELECT tb_aluno.nome, tb_aluno.nomeP, tb_aluno.nomeM, tb_aluno.telefone, tb_aluno.dataNasc, tb_aluno.cpf, tb_aluno.rg, tb_aluno.genero, tb_aluno.cep, +
-tb_aluno.rua, tb_aluno.bairro, tb_aluno.cidade, tb_aluno.estado, tb_aluno.email, tb_curso.nomeC FROM tb_aluno 
+tb_aluno.rua, tb_aluno.bairro, tb_aluno.cidade, tb_aluno.estado, tb_aluno.email, tb_curso.nomec FROM tb_aluno 
 INNER JOIN tb_curso ON tb_aluno.FK_idCurso = tb_curso.idCurso;
 
 UPDATE tb_aluno SET nome = 'Nome quatro', nomeP = 'Nome Paipai', nomeM = 'Nome Maemae' WHERE idAluno = 5;

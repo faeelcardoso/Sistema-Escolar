@@ -777,7 +777,7 @@
             // 
             // columnCurso
             // 
-            this.columnCurso.DataPropertyName = "nomeC";
+            this.columnCurso.DataPropertyName = "nomec";
             this.columnCurso.HeaderText = "Curso";
             this.columnCurso.Name = "columnCurso";
             this.columnCurso.Width = 250;

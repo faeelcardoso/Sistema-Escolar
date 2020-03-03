@@ -44,7 +44,7 @@ namespace Model
                     command.Connection = connection;
                     command.CommandType = CommandType.Text;
                     command.CommandText = "SELECT tb_aluno.idAluno, tb_aluno.nome, tb_aluno.nomeP, tb_aluno.nomeM, tb_aluno.telefone, tb_aluno.dataNasc, tb_aluno.cpf, tb_aluno.rg, tb_aluno.genero, tb_aluno.cep, " +
-                                          "tb_aluno.rua, tb_aluno.bairro, tb_aluno.cidade, tb_aluno.estado, tb_aluno.email, tb_curso.nomeC FROM tb_aluno " +
+                                          "tb_aluno.rua, tb_aluno.bairro, tb_aluno.cidade, tb_aluno.estado, tb_aluno.email, tb_curso.nomec FROM tb_aluno " +
                                           "INNER JOIN tb_curso ON tb_aluno.FK_idCurso = tb_curso.idCurso; ";
                    
                     //ExecuteNonQuery, ExecuteReader, ExecuteScalar
