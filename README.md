@@ -3,7 +3,7 @@
 </h1>
 
 <h1>
-    <img src="https://ik.imagekit.io/mgmhn2zpr6/new_mUw2ObBiC.gif">
+    <img src="/ícones/new.gif">
 </h1>
 
 ## Indice
