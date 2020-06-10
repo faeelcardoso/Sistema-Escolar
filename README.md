@@ -3,7 +3,7 @@
 </h1>
 
 <h1>
-    <img src="Sistema-Escolar/icones/new.gif">
+    <img src="/Sistema-Escolar/icones/new.gif">
 </h1>
 
 ## Indice
