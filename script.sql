@@ -56,7 +56,7 @@ SELECT * FROM tb_curso;
 SELECT * FROM tb_aluno; 
 SELECT * FROM tb_usuarios;
 
-SELECT tb_professor.nome, tb_curso.nome FROM tb_professor 
+SELECT tb_professor.nome, tb_curso.nomec FROM tb_professor 
 INNER JOIN tb_curso ON tb_professor.idProfessor	= tb_curso.FK_idProfessor WHERE idProfessor = 1;
 
 SELECT tb_aluno.nome, tb_aluno.nomeP, tb_aluno.nomeM, tb_aluno.telefone, tb_aluno.dataNasc, tb_aluno.cpf, tb_aluno.rg, tb_aluno.genero, tb_aluno.cep, +
