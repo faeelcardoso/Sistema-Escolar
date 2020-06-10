@@ -1,0 +1,28 @@
+<h1 align="center">
+    <img src="https://ik.imagekit.io/mgmhn2zpr6/SIstema-Escolar_05syjxg1R.png">
+</h1>
+
+<h1>
+    <img src="">
+</h1>
+
+## Indice
+- [Sobre](#-sobre)
+- [Tecnologias Utilizadas](#-tecnologias-utilizadas)
+- [Aprendizado](#-aprendizado)
+
+## 📜 Sobre
+
+O **Sistema Escolar**, é um projeto desenvolvido como um pré-requisito para aprovação no último módulo, e nossa formação, do curso Técnico em Desenvolvimento de Sistemas. O objetivo do projeto é desenvolver uma ferramenta para auxiliar instituições educacionais em processos que demandam mais tempo e recursos que o necessário. Ao analisar o mercado atual observa-se a ausência deste tipo de aplicação, tornando-a verdadeiramente inovadora.
+Além de sua ideia inusitada, outro diferencial apresentado é a possibilidade de se usar QR Code, uma ferramenta já existente há algum tempo e bastante utilizada, para uma aplicação nunca antes vista. Cada aluno tem seu próprio código e pode usá-lo em terminais, colocando seu código, gerando o QR code, saindo na tela do seu celular todos os dados do aluno na instituição, sua nota, frequência...
+
+## 🚀 Tecnologias Utilizadas
+
+ ✔ C# <br>
+ ✔ SQL Server <br>
+
+ ## 👨🏻‍💻 Aprendizado
+O **Sistema Escolar** foi meu primeiro projeto feito do 0, com a modelagem, desenvolvimento, testes, manutenções e implantação do sistema. Tenho que agradecer ao **Senai** e todos meus **professores** pelo grande ensino que nos foi passado e por me fazer ficar ainda mais animado por resolver problemas. **Bora Codar!!**
+
+---
+##### ☕ Desenvonvido por Raphael Marques
