@@ -2,6 +2,12 @@
     <img src="https://ik.imagekit.io/mgmhn2zpr6/SIstema-Escolar_05syjxg1R.png">
 </h1>
 
+<p align="center">
+    <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/faeelcardoso/sistema-escolar?style=flat-square">
+    <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/faeelcardoso/sistema-escolar?style=flat-square">
+    <img alt="Made by Raphael Marques" src="https://img.shields.io/badge/made%20by-Raphael%20Marques-%237519C1?color=informational"><br/>
+</p>
+
 <h1>
     <img src="/icones/new.gif">
 </h1>
